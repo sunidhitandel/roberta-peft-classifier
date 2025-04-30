@@ -1,4 +1,4 @@
-## 🚀 Efficient Text Classification on AGNEWS using LoRA-Enhanced RoBERTa 
+## Efficient Text Classification on AGNEWS using LoRA-Enhanced RoBERTa 
 
 A lightweight and efficient text classification system built on RoBERTa with Low Rank Adaptation (LoRA), achieving top 6% performance in the AGNEWS classification challenge.
 
