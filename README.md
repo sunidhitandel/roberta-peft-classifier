@@ -1,4 +1,4 @@
-# Efficient Text Classification on AGNEWS using LoRA-Enhanced RoBERTa 
+## Efficient Text Classification on AGNEWS using LoRA-Enhanced RoBERTa 🚀
 
 A lightweight and efficient text classification system built on RoBERTa with Low Rank Adaptation (LoRA), achieving top 6% performance in the AGNEWS classification challenge.
 
@@ -6,11 +6,19 @@ A lightweight and efficient text classification system built on RoBERTa with Low
 
 This project implements a parameter-efficient fine-tuning approach for text classification using RoBERTa and LoRA. The system achieves 95.1% training accuracy and 89.68% validation accuracy while maintaining under 1 million trainable parameters.
 
+## Leaderboard Ranking
+
+**Rank:** 10th / 151 teams  
+**Group Name:** Rank Adapters  
+
+### Team Members
+- **Sunidhi Tandel** (sdt9243)  
+- **Tanvi Takavane** (tt2884)
 
 ### Architecture Diagram
 ![Model Architecture](experiments/img_references/roberta_arch.jpg)
 
-## 🚀 Key Features
+## 📍 Key Features
 - **Parameter Efficiency**: Less than 1M trainable parameters
 - **High Performance**: 89.68% validation accuracy on AGNEWS dataset
 - **Optimized Architecture**: LoRA-enhanced RoBERTa with optimal rank (r=6) and scaling factor (α=6)
@@ -117,5 +125,6 @@ The best performing model achieved:
 2. Hu, E. J., et al. (2021). LoRA: Low-Rank Adaptation of Large Language Models
 3. Dettmers, T., et al. (2023). QLoRA: Efficient Finetuning of Quantized LLMs
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
+We would like to thank everyone whose feedback and suggestions helped me with this project. We sincerely appreciate the support of Professors Chinmay Hegde and the TAs throughout the process.
