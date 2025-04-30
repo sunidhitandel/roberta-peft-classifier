@@ -1,12 +1,16 @@
-# Efficient Text Classification on AGNEWS using LoRA-Enhanced RoBERTa 🚀
+# Efficient Text Classification on AGNEWS using LoRA-Enhanced RoBERTa 
 
 A lightweight and efficient text classification system built on RoBERTa with Low Rank Adaptation (LoRA), achieving top 6% performance in the AGNEWS classification challenge.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project implements a parameter-efficient fine-tuning approach for text classification using RoBERTa and LoRA. The system achieves 95.1% training accuracy and 89.68% validation accuracy while maintaining under 1 million trainable parameters.
 
-### Key Features
+
+### Architecture Diagram
+![Model Architecture](experiments/img_references/roberta_arch.jpg)
+
+## 🚀 Key Features
 - **Parameter Efficiency**: Less than 1M trainable parameters
 - **High Performance**: 89.68% validation accuracy on AGNEWS dataset
 - **Optimized Architecture**: LoRA-enhanced RoBERTa with optimal rank (r=6) and scaling factor (α=6)
@@ -34,6 +38,23 @@ This project implements a parameter-efficient fine-tuning approach for text clas
 | Epochs | 10 |
 | Weight Decay | 0.01 |
 | Warmup Ratio | 0.1 |
+
+
+## Evaluation Graphs
+
+Below are the evaluation graphs that track model performance during training:
+
+- **Training Loss**  
+  ![Training Loss](experiments/img_references/train_loss.png)
+
+- **Validation Loss**  
+  ![Validation Loss](experiments/img_references/eval_loss.png)
+
+## Model Variants
+
+The image below summarizes the different model variants we experimented with, along with their corresponding evaluation metrics:
+
+![Model Variants](experiments/img_references/model_variants.jpg)
 
 ## 🛠️ Installation
 
@@ -90,7 +111,7 @@ The best performing model achieved:
 - Validation Loss: 0.3120
 - Total Parameters: 925,444
 
-## 📚 References
+## References
 
 1. Liu, Y., et al. (2019). RoBERTa: A Robustly Optimized BERT Pretraining Approach
 2. Hu, E. J., et al. (2021). LoRA: Low-Rank Adaptation of Large Language Models
@@ -98,8 +119,3 @@ The best performing model achieved:
 
 ## 🙏 Acknowledgements
 
-We would like to thank the organizers of the AGNEWS classification challenge and the open-source community for their valuable contributions to the field of NLP.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
