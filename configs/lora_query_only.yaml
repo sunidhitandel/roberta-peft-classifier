@@ -1,0 +1,31 @@
+model:
+  base_model: 'roberta-base'
+
+data:
+  max_length: 640
+  seed: 42
+
+lora:
+  r: 16
+  alpha: 16
+  dropout: 0.1
+  bias: 'all'
+  target_modules: ['query']
+
+training:
+  logging_steps: 100
+  learning_rate: 5e-7
+  num_epochs: 7
+  max_steps: 1600
+  train_batch_size: 16
+  eval_batch_size: 64
+  gradient_checkpointing: False
+  weight_decay: 0.01
+  dataloader_num_workers: 4
+  lr_scheduler_type: 'cosine'
+  warmup_ratio: 0.01
+  eval_strategy: 'steps'
+  warmup_steps: 100
+
+testing:
+  batch_size: 64
