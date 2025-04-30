@@ -5,6 +5,8 @@ A lightweight and efficient text classification system built on RoBERTa with Low
 ##  Project Overview
 
 This project implements a parameter-efficient fine-tuning approach for text classification using RoBERTa and LoRA. The system achieves 95.1% training accuracy and 89.68% validation accuracy while maintaining under 1 million trainable parameters.
+![Model Architecture](experiments/img_references/roberta_arch.jpg)
+
 
 ## Leaderboard Ranking
 
@@ -14,9 +16,6 @@ This project implements a parameter-efficient fine-tuning approach for text clas
 ### Team Members
 - **Sunidhi Tandel** (sdt9243)  
 - **Tanvi Takavane** (tt2884)
-
-### Architecture Diagram
-![Model Architecture](experiments/img_references/roberta_arch.jpg)
 
 ## 📍 Key Features
 - **Parameter Efficiency**: Less than 1M trainable parameters
