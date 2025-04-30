@@ -8,7 +8,7 @@ This project implements a parameter-efficient fine-tuning approach for text clas
 ![Model Architecture](experiments/img_references/roberta_arch.jpg)
 
 
-## Leaderboard Ranking
+## 🏆 Leaderboard Ranking
 
 **Rank:** 10th / 151 teams  
 **Group Name:** Rank Adapters  
@@ -24,7 +24,7 @@ This project implements a parameter-efficient fine-tuning approach for text clas
 - **Comprehensive Training**: Multiple optimizer and scheduler configurations
 - **Modular Design**: Easy to experiment with different configurations
 
-## 🏆 Best Model Configuration
+## 🔍 Best Model Configuration
 
 ### LoRA Parameters
 | Parameter | Value |
